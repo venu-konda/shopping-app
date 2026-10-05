@@ -1,5 +1,7 @@
 # shopping-app
 
+[![Build](https://github.com/venu-konda/shopping-app/actions/workflows/build.yml/badge.svg)](https://github.com/venu-konda/shopping-app/actions/workflows/build.yml)
+
 A small console shopping application in C++: add products to a cart, view it,
 total the bill, and pay from a built-in bank account with a password check.
 It is an object-oriented programming exercise (classes, static and const
