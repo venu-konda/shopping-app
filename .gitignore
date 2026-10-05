@@ -1,0 +1,11 @@
+# Compiled binaries
+*.o
+a.out
+shop
+shop_v1
+shop_v2
+
+# Editor and OS noise
+*.swp
+*~
+.DS_Store
