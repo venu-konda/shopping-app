@@ -1,0 +1,19 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build both versions
+        working-directory: shopping
+        run: |
+          g++ -Wall -std=c++17 -o shop_v1 product.cpp
+          g++ -Wall -std=c++17 -o shop_v2 product1.cpp
+          ls -la shop_v1 shop_v2
